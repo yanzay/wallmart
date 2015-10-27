@@ -1,0 +1,8 @@
+=form_tag(reviews_path) do
+  .form-group
+    %label{for: 'id'} Product ID:
+    %input.form-control{type: 'text', name: 'id'}
+  .form-group
+    %label{for: 'text'} Text:
+    %input.form-control{type: 'text', name: 'text'}
+  %input.btn.btn-default{type: 'submit', value: 'Get Reviews'}
